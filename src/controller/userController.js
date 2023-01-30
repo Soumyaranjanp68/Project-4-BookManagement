@@ -1,5 +1,4 @@
 const userModel = require("../model/userModel");
-
 const jwt = require("jsonwebtoken");
 const { validateName, validateEmail, validatePassword, validateMobileNo, validatePincode, validatePlace } = require("../validator/validator");
 
